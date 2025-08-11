@@ -30,9 +30,11 @@ dataset/
 - Dataset: Telescope image dataset (preprocessed and normalized)
 - Evaluation: Accuracy, ROC-AUC
 
-## Results
-- ROC-AUC: [value]
-- Accuracy: [value]
+## Evaluation
+The model’s performance was evaluated using the Receiver Operating Characteristic (ROC) curve for each class.
+The plot below demonstrates the ROC curves generated from the current baseline model on the validation dataset.
+
+Note: The current results represent an initial baseline. Further experiments, hyperparameter tuning, and dataset augmentation are planned to improve classification performance.
 <img width="825" height="562" alt="image" src="https://github.com/user-attachments/assets/e4751813-bddc-45e6-91bb-1320c6598506" />
 
 
