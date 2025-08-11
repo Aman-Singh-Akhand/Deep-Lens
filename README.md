@@ -12,7 +12,7 @@ Due to licensing and storage constraints, the dataset is not included in this re
 If you wish to replicate the results:
 - Use any public astronomical image dataset with similar categories (e.g., Sloan Digital Sky Survey data).
 - Ensure the folder structure follows:
-  
+```  
 dataset/
   train/
     class_1/
@@ -22,7 +22,7 @@ dataset/
     class_1/
     class_2/
     ...
-
+```
 
 ## Methods
 - Framework: TensorFlow/Keras
