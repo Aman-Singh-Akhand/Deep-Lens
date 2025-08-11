@@ -33,7 +33,8 @@ dataset/
 ## Results
 - ROC-AUC: [value]
 - Accuracy: [value]
-- [Add sample image or diagram]
+<img width="825" height="562" alt="image" src="https://github.com/user-attachments/assets/e4751813-bddc-45e6-91bb-1320c6598506" />
+
 
 ## How to Run
 
