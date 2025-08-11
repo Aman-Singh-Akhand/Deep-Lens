@@ -15,13 +15,13 @@ If you wish to replicate the results:
 ```  
 dataset/
   train/
+    class_0/
     class_1/
     class_2/
-    ...
   val/
+    class_0/
     class_1/
     class_2/
-    ...
 ```
 
 ## Methods
