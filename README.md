@@ -18,7 +18,7 @@ Fast and accurate classification of astronomical images can aid in identifying s
 - [Add sample image or diagram]
 
 ## How to Run
-```bash
+
 pip install -r requirements.txt
 python train.py
 
