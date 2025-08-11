@@ -6,6 +6,23 @@ This project implements a convolutional neural network (CNN) for classifying ast
 ## Motivation
 Fast and accurate classification of astronomical images can aid in identifying strong gravitational lenses and detecting features relevant to dark matter research.
 
+## Dataset
+The dataset used in this project contains labeled astronomical object images for multi-class classification.
+Due to licensing and storage constraints, the dataset is not included in this repository.
+If you wish to replicate the results:
+- Use any public astronomical image dataset with similar categories (e.g., Sloan Digital Sky Survey data).
+- Ensure the folder structure follows:
+dataset/
+  train/
+    class_1/
+    class_2/
+    ...
+  val/
+    class_1/
+    class_2/
+    ...
+
+
 ## Methods
 - Framework: TensorFlow/Keras
 - Physics-informed output layer to enforce astrophysical constraints
