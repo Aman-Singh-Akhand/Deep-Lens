@@ -21,3 +21,17 @@ Fast and accurate classification of astronomical images can aid in identifying s
 ```bash
 pip install -r requirements.txt
 python train.py
+
+
+## Repository Structure
+
+```
+.
+├── notebooks/                          # Main project notebooks
+│   ├── lens_finding_physics_guided_cnn.ipynb        # Physics-informed CNN model, training, and results
+│   ├── astro_multiclass_classification_cnn.ipynb    # Multi-class classification of astronomical objects
+│   └── model_testing.ipynb                         # Additional evaluation / experiments
+│
+├── requirements.txt                    # Python dependencies
+└── README.md                           # Project documentation
+```
