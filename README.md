@@ -30,7 +30,7 @@ python train.py
 ├── notebooks/                          # Main project notebooks
 │   ├── lens_finding_physics_guided_cnn.ipynb        # Physics-informed CNN model, training, and results
 │   ├── astro_multiclass_classification_cnn.ipynb    # Multi-class classification of astronomical objects
-│   └── model_testing.ipynb                         # Additional evaluation / experiments
+│                        
 │
 ├── requirements.txt                    # Python dependencies
 └── README.md                           # Project documentation
