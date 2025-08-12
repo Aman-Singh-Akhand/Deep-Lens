@@ -43,14 +43,33 @@ If you wish to replicate the results:
 - Ensure the folder structure follows:
 ```  
 dataset/
-  train/
-    class_0/
-    class_1/
-    class_2/
-  val/
-    class_0/
-    class_1/
-    class_2/
+    train/
+        class_0/
+            image1.png
+            image2.png
+            ...
+        class_1/
+            image1.png
+            image2.png
+            ...
+        class_2/
+            image1.png
+            image2.png
+            ...
+    val/
+        class_0/
+            image1.png
+            image2.png
+            ...
+        class_1/
+            image1.png
+            image2.png
+            ...
+        class_2/
+            image1.png
+            image2.png
+            ...
+
 ```
 
 ## Methods
@@ -65,11 +84,9 @@ dataset/
 
 The binary classification model for detecting gravitational lenses achieved high accuracy and strong discriminative performance. The ROC curve below shows the trade-off between True Positive Rate and False Positive Rate.
 
-Test Accuracy: 98.39%
-
-Test Loss: 0.0581
-
-AUC: 0.9336
+- Test Accuracy: 98.39%
+- Test Loss: 0.0581
+- AUC: 0.9336
 
 A high AUC score (>0.9) demonstrates strong discriminative ability, meaning the model effectively separates lens images from non-lens images.
 
@@ -84,11 +101,8 @@ Below is the baseline performance of the multi-class classification model on the
 Notes:
 
 - These results are from an initial run without extensive hyperparameter tuning or advanced preprocessing.
-
 - They serve as a starting point for further improvements in model architecture, data augmentation, and dataset quality.
-
 - Future work aims to significantly improve accuracy and AUC through iterative experimentation.
-
 - <img width="825" height="562" alt="image" src="https://github.com/user-attachments/assets/e4751813-bddc-45e6-91bb-1320c6598506" />
 
 
