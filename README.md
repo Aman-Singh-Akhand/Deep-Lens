@@ -7,8 +7,37 @@ This project implements a convolutional neural network (CNN) for classifying ast
 Fast and accurate classification of astronomical images can aid in identifying strong gravitational lenses and detecting features relevant to dark matter research.
 
 ## Dataset
+
+### Lens Finding (Binary Classification)
+Dataset Structure
+The dataset should be organized into binary class folders (lenses and nonlenses) inside separate train and test directories.
+```
+dataset/
+    train/
+        lenses/
+            file1.npy
+            file2.npy
+            ...
+        nonlenses/
+            file1.npy
+            file2.npy
+            ...
+    test/
+        lenses/
+            file1.npy
+            file2.npy
+            ...
+        nonlenses/
+            file1.npy
+            file2.npy
+            ...
+```
+- Each .npy file contains a single image as a NumPy array.
+- Images are normalized to [0, 1] during preprocessing.
+- This dataset is for binary classification (lenses vs. nonlenses).
+
+### Multi-Class Classification
 The dataset used in this project contains labeled astronomical object images for multi-class classification.
-Due to licensing and storage constraints, the dataset is not included in this repository.
 If you wish to replicate the results:
 - Use any public astronomical image dataset with similar categories (e.g., Sloan Digital Sky Survey data).
 - Ensure the folder structure follows:
@@ -54,13 +83,13 @@ Below is the baseline performance of the multi-class classification model on the
 
 Notes:
 
-These results are from an initial run without extensive hyperparameter tuning or advanced preprocessing.
+- These results are from an initial run without extensive hyperparameter tuning or advanced preprocessing.
 
-They serve as a starting point for further improvements in model architecture, data augmentation, and dataset quality.
+- They serve as a starting point for further improvements in model architecture, data augmentation, and dataset quality.
 
-Future work aims to significantly improve accuracy and AUC through iterative experimentation.
+- Future work aims to significantly improve accuracy and AUC through iterative experimentation.
 
-<img width="825" height="562" alt="image" src="https://github.com/user-attachments/assets/e4751813-bddc-45e6-91bb-1320c6598506" />
+- <img width="825" height="562" alt="image" src="https://github.com/user-attachments/assets/e4751813-bddc-45e6-91bb-1320c6598506" />
 
 
 ## How to Run
