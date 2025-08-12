@@ -32,7 +32,7 @@ dataset/
 
 ## Results
 
-# Gravitational Lensing Detection
+### Gravitational Lensing Detection
 
 The binary classification model for detecting gravitational lenses achieved high accuracy and strong discriminative performance. The ROC curve below shows the trade-off between True Positive Rate and False Positive Rate.
 
@@ -44,7 +44,10 @@ AUC: 0.9336
 
 A high AUC score (>0.9) demonstrates strong discriminative ability, meaning the model effectively separates lens images from non-lens images.
 
-# Multiclass Classification
+<img width="827" height="556" alt="image" src="https://github.com/user-attachments/assets/6f5b53d4-0d66-4164-9f84-01e12955cbfc" />
+
+
+### Multiclass Classification
 
 Below is the baseline performance of the multi-class classification model on the initial dataset version. The ROC curves show the ability of the model to distinguish between the three astronomical object categories.
 
@@ -63,6 +66,7 @@ Future work aims to significantly improve accuracy and AUC through iterative exp
 ## How to Run
 
 pip install -r requirements.txt
+
 python train.py
 
 
